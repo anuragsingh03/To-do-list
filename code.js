@@ -22,7 +22,7 @@ btndelete.innerHTML = "delete";
 createlist.appendChild(btndelete);    
     let btn = document.createElement("BUTTON"); 
     btn.setAttribute('id',countaddid);
-btn.innerHTML = "check"; 
+btn.innerHTML = "done"; 
 btn.setAttribute('onclick','performcheck(id)');                  
 createlist.appendChild(btn); 
 addevent.appendChild(createlist);
